@@ -8,6 +8,10 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
 }
 
+dependencies {
+    api(libs.kotlin.io)
+}
+
 kotlin {
     compilerOptions {
         jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11
