@@ -29,6 +29,6 @@ fun part2(content: List<String>): Int {
 }
 
 fun main() {
-    println("Part 1: " + part1(file(1, "data.txt").readLines()))
-    println("Part 2: " + part2(file(1, "data.txt").readLines()))
+    val input = readInput(day = 1, name = "data.txt").readLines()
+    printResult(part1 = part1(input), part2 = part2(input))
 }
