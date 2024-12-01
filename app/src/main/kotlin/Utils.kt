@@ -1,5 +1,3 @@
-package dev.lennartegb
-
 import java.io.File
 
 fun file(name: String): File {

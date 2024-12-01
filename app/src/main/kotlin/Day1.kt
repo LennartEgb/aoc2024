@@ -1,5 +1,3 @@
-package dev.lennartegb
-
 import kotlin.math.absoluteValue
 
 fun List<String>.toLRLists(): Pair<List<Int>, List<Int>> {
