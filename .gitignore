@@ -7,3 +7,4 @@ build
 local.properties
 .kotlin/sessions
 .idea
+!.idea/icon.svg
